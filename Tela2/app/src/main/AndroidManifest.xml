@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <intent-filter>
-                <action android:name="SUPER_UNIQUE_INTENT_ID"/>
+                <action android:name="INTENT_ID"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>

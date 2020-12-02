@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         Double nCups = Double.parseDouble(nCopos.getText().toString().trim());
         String fasting = jejum.getText().toString();
 
-        Intent it = new Intent("SUPER_UNIQUE_INTENT_ID");
+        Intent it = new Intent("INTENT_ID");
         Bundle params = new Bundle();
         params.putDouble("peso", weight);
         params.putString("sexo", sex);
